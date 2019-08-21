@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+</style>
+
+<head>
+    <title>Vladimir S. Bogdashkin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+<style>
+    body {
+        color: #3d4451;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #efefef !important;
+        box-sizing: border-box;
+    }
+    
+    .content {
+        margin-top: -350px !important;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    .container-top {
+        height: 500px;
+        margin: 0px;
+        background-image: url(http://androidcentral.us/wp-content/uploads/2014/06/low-poly-texture-19.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .profile {
+        padding: 30px 20px 15px 20px
+    }
+    
+    .section-box {
+        padding: 0 auto;
+        background-color: #fff;
+        border-radius: 4px 4px 0 0;
+        box-shadow: 8px 5px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid white;
+        background-color: white;
+        margin-top: 60px;
+        height: 40px;
+    }
+    
+    .section-box .profile-title {
+        line-height: 1.1;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    
+    .resume-title {
+        line-height: 1.1;
+        font-weight: 700;
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    .section-box .resume {
+        line-height: 1.1;
+        font-weight: 700;
+        margin: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .profile-social {
+        background-color: #d9534f;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        border-radius;
+        0 0 1% 1%;
+    }
+    
+    #experience .section-box {
+        padding: 20px 20px 20px 20px;
+    }
+    
+    #experience .section-box ul {
+        padding-left: 20px;
+    }
+    /*  Icons */
+    /* footer social icons */
+    
+    ul.social-network {
+        list-style: none;
+        display: inline;
+        margin-left: 0 !important;
+        padding: 0;
+    }
+    
+    ul.social-network li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    .schools {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+    
+    .port {
+        padding: 25px 25px 25px 25px;
+    }
+    
+    .queens-icon,
+    .fcc-icon,
+    .orea-icon {
+        font-size: 35px;
+        line-height: 1;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .row {
+        min-width: 100% !important;
+    }
+    
+    .croost-button {
+        border: 3px solid rgb(128, 128, 128);
+        border-radius: 70%;
+        background-image: url(http://www.bedra.ca/CroostComingSoon/images/CROOST-PNG-logo.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 250px;
+    }
+    
+    #portfolio {
+        text-align: center;
+    }
+    
+    .sfme-button {
+        border: 3px solid rgb(128, 128, 128);
+        border-radius: 70%;
+        background-image: url(https://simplyfeedme.herokuapp.com/assets/logo-51abe47766c8f6abd8bc1073f6519230.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 250px;
+    }
+    
+    .sfme-button:hover,
+    .croost-button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+        border: 3px solid #d9534f;
+        -webkit-transition-duration: 0.8s;
+        /* Safari */
+        transition-duration: 0.8s;
+    }
+    /* footer social icons */
+    
+    .social-network a.icoRss:hover {
+        background-color: #F56505;
+    }
+    
+    .social-network a.icoFacebook:hover {
+        background-color: rgb(71, 34, 130);
+    }
+    
+    .social-network a.icoTwitter:hover {
+        background-color: rgb(228, 21, 112);
+    }
+    
+    .social-network a.icoGoogle:hover {
+        background-color: #BD3518;
+    }
+    
+    .social-network a.icoVimeo:hover {
+        background-color: #0590B8;
+    }
+    
+    .social-network a.icoLinkedin:hover {
+        background-color: rgb(71, 34, 130);
+    }
+    
+    .social-network a.icoRss:hover i,
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoTwitter:hover i,
+    .social-network a.icoGoogle:hover i,
+    .social-network a.icoVimeo:hover i,
+    .social-network a.icoLinkedin:hover i {
+        color: #fff;
+    }
+    
+    a.socialIcon:hover,
+    .socialHoverClass {
+        color: #44BCDD;
+    }
+    
+    .social-circle li a {
+        display: inline-block;
+        position: relative;
+        margin: 0 auto 0 auto;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .social-circle li i {
+        margin: 0;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .social-circle li a:hover i,
+    .triggeredHover {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -ms--transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+    
+    .social-circle i {
+        color: #d3d3d3;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        -ms-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+    
+    ul.social-circle a {
+        background-color: #696969;
+        margin-top: 0px;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+        // Add scrollspy to <body>
+        $('body').scrollspy({
+            target: ".navbar",
+            offset: 50
+        });
+
+        // Add smooth scrolling on all links inside the navbar
+        $("#myNavbar a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Collapsable nav bar -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+            </div>
+            <!-- Nav bar -->
+
+            <div class="navbar-collapse collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right"> <button class="btn btn-danger navbar-btn">Download Resume <span class="glyphicon glyphicon-download-alt"></span></button>
+                </ul>
+            </div>
+            <!-- finishes navbar -->
+        </div>
+    </nav>
+
+    <!-- end of nav -->
+
+    <!-- First Section: Poly background with overlapping showcase -->
+    <div class="container-top">
+    </div>
+
+    <!-- Second Section: Showcase -->
+
+    <div class="content">
+        <div class="container-fluid">
+            <section id="about" class="section section-about">
+                <div class="section-box">
+                    <div class="profile">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="profile-pic">
+                                    <img src="https://i.imgur.com/ZNRk6dR.jpg" class="img-responsive"></img>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-7">
+
+                                <div class="profile-info">
+
+                                    <h1 class="profile-title">
+                                        I'm <strong>Vladimir S. Bogdashkin </strong>
+                                    </h1>
+                                    <h4> Serial Entrepreneur and Technology Consultant</h4>
+                                    <hr>
+
+                                    <table style="width:100%">
+                                        <tr>
+                                            <td>
+                                                <strong class="title"> AGE </strong></td>
+                                            <td>
+                                                <span class="cont">25</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong class="title"> ADDRESS </strong></td>
+                                            <td>
+                                                <span class="cont">Toronto, ON, Canada</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong class="title"> E-MAIL </strong></td>
+                                            <td>
+                                                <span class="cont">info@croost.ca</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong class="title"> PHONE </strong></td>
+                                            <td>
+                                                <span class="cont"> 647-704-7477 </span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- row closer -->
+                    </div>
+                    <!-- profile closer -->
+
+
+                    <div class="profile-social">
+                        <h3 style="color:white; padding-top:10px"> Let's connect! </p>
+                            <div class="col-md-12">
+                                <ul class="social-network social-circle">
+                                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="icoLinkedIn" title="Twitter"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <!-- profile-social closer -->
+                </div>
+                <!--section-box closer -->
+            </section>
+            <!-- about section closer -->
+
+
+            <div class="container-fluid">
+                <section id="education" class="section section-resume">
+                    <div class="resume">
+                        <h1 class="resume-title">
+                            <strong>Education</strong>
+                        </h1>
+
+                        <div class="section-box">
+                            <div class="container-fluid">
+
+                                <div class="row">
+                                    <div class="schools">
+                                        <div class="col-sm-4">
+                                            <div class="queens">
+                                                <div class="queens-icon">
+                                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="ed-school">
+                                                    <h3>Queen’s University</h3>
+                                                    <p>Bachelor of Commerce (Honours), 2015</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="fcc">
+                                                <div class="fcc-icon">
+                                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="ed-school">
+                                                    <h3>FreeCodeCamp</h3>
+                                                    <p>Full Stack Web Developer, 2018</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="orea">
+                                                <div class="orea-icon">
+                                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="ed-school">
+                                                    <h3>OREA College</h3>
+                                                    <p> Real Estate Salesperson, 2017 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <hr>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+
+                                    <div class="col-sm-4">
+                                        <div class="queens">
+
+                                            <ul>
+                                                <li>Queen’s Case Competition (QCC) – 1st place in the A-Stream</li>
+                                                <li>1st place in CSR/Responsible Leadership Weekend case competition</li>
+                                                <li>1st place in Queen’s Start-up Summit – awarded $1000</li>
+                                                <li>The Marquee Group course on “Building a Financial Model”
+                                                    <p>Skills required to design and create an interactive financial model that adheres to the highest industry standards</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-sm-4">
+                                        <div class="fcc">
+
+                                            <ul>
+                                                <li>Queen’s Case Competition (QCC) – 1st place in the A-Stream</li>
+                                                <li>1st place in CSR/Responsible Leadership Weekend case competition</li>
+                                                <li>1st place in Queen’s Start-up Summit – awarded $1000</li>
+                                                <li>The Marquee Group course on “Building a Financial Model”
+                                                    <p>Skills required to design and create an interactive financial model that adheres to the highest industry standards</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-4">
+                                        <div class="orea">
+
+                                            <ul>
+                                                <li>Queen’s Case Competition (QCC) – 1st place in the A-Stream</li>
+                                                <li>1st place in CSR/Responsible Leadership Weekend case competition</li>
+                                                <li>1st place in Queen’s Start-up Summit – awarded $1000</li>
+                                                <li>The Marquee Group course on “Building a Financial Model”
+                                                    <p>Skills required to design and create an interactive financial model that adheres to the highest industry standards</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--row closer -->
+                            </div>
+                        </div>
+                        <!-- section box close -->
+                    </div>
+                    <!-- resume-->
+                </section>
+            </div>
+            <!-- container fluid close -->
+
+            <div class="container-fluid">
+                <section id="experience" class="section section-resume">
+                    <div class="resume">
+                        <h1 class="resume-title">
+                            <strong>Experience</strong>
+                        </h1>
+
+                        <div class="section-box">
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h3>Associate Analyst</h3>
+                                    <h4><em>Sapient Global Markets</em></h4>
+                                    <p>Sept ’15 – Present </p>
+
+                                    <ul>
+                                        <li>
+                                            Solo BA in ETL and Tableau dashboard creation for top Canadian bank–requirements gathering, data mapping, and process flows
+                                        </li>
+                                        <li>
+                                            Worked on multiple large RFP responses, including multi-year program plans and large complex solution needs. These pitches involved target operating model (TOM) definition, process improvement, IT strategy, and transformation engagements
+                                        </li>
+                                        <p> Transformation project for a large insurer and financial services company;</p>
+                                        <li>A vendor integration for a cross-asset front, middle, and back office solution
+                                        </li>
+                                        <li>Created test scenarios, test data, user stories, and played an APM role to ensure successful delivery from a Globally Distributed Model with client teams of different skill levels and spread across geographies
+                                        </li>
+                                    </ul>
+
+                                    <hr>
+                                </div>
+
+                            </div>
+                            <!--row closer -->
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h3>CEO & Founder</h3>
+                                    <h4><em>SimplyFeed.me</em></h4>
+                                    <p>March '15 - Sept '15</p>
+                                    Online pre-portioned ingredient delivery service
+                                    <ul>
+                                        <li>
+                                            Ideated and implemented a full stand-up of our digital presence and physical distribution channels
+                                        </li>
+                                        <li>
+                                            Reached revenues of $40,000 in just 5 months
+
+                                        </li>
+                                        <li>Created partnerships with local celebrity chefs and business owners who produced our recipes and cooking videos, marketed our products within their establishments, and supplied produce and animal protein at wholesale
+                                            prices allowing a lean cost structure
+
+                                        </li>
+                                        <li>Tight budgeting and frugal oversight lead the company to run a 38% net profit margin
+                                        </li>
+                                        <li>
+                                            Influenced and motivated 8 fellow students to engage in our start-up idea, creating and leading a team consisting of strategists, visual designer, front- and back-end developers, photographer, videographer, and marketers
+                                            <ul>
+                                                <li>
+                                                    Dare to Dream Internship - Awarded $20,000 by Queen’s Centre for Business Venturing for most promising startup</li>
+                                                <li>
+                                                    Kinnear Business Plan Competition – Best Branded Company</li>
+                                                <li>
+                                                    Queen’s Entrepreneurship Competition Finalist </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <hr>
+                                </div>
+
+                            </div>
+                            <!--row closer -->
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h3>Consultant</h3>
+                                    <h4><em>Brookfield Renewables Energy Partners</em></h4>
+                                    <p>Sept ’14 – September '15' </p>
+
+                                    <p>Feasibility study on adopting energy storage technologies to stabilize the supply of renewable energy to electrical grids
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Helped the client to augment existing renewable assets with energy storage, deferring the need for large investments in generation, transmission and distribution infrastructure
+
+                                        </li>
+                                        <li>
+                                            Report produced recommendations that are actionable within a five to ten year period. It assessed the technical practicality of new energy sources, identifies curtailment policies, regulatory frameworks for utilities and governing bodies, and anticipates
+                                            policy and legislative issues that may subsequently arise. Financial model valuations on potential opportunities
+                                        </li>
+
+                                    </ul>
+
+
+                                </div>
+
+                            </div>
+                            <!--row closer -->
+
+
+                        </div>
+                        <!-- section-box close -->
+                    </div>
+                    <!-- resume-->
+                </section>
+                <!-- Experience close -->
+            </div>
+            <!-- container fluid close -->
+
+
+            <div class="container-fluid">
+                <section id="portfolio" class="section section-portfolio">
+                    <div class="portfolio">
+                        <h1 class="resume-title">
+                            <strong>Portfolio</strong>
+                        </h1>
+
+                        <div class="section-box">
+                            <div class="port text-center">
+                                <div class="row text-center">
+                                    <div class="col-sm-4 text-center">
+                                        <div class="simplyfeedme">
+                                            <a target='_blank' href="https://simplyfeedme.herokuapp.com"><button type="button" class="sfme-button"></button></a>
+                                            <h5>Online pre-portioned ingredient delivery service</h5>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+
+                                        <div class="croost">
+                                            <a target='_blank' href="http://bedra.ca/CroostComingSoon"><button type="button" class="croost-button"></button></a>
+                                            <h5>Canada's credit improvement</h5>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="croost">
+                                            <a target='_blank' href="http://bedra.ca/CroostComingSoon"><button type="button" class="croost-button"></button></a>
+                                            <h5>Canada's credit improvement</h5>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--row closer -->
+                            </div>
+                        </div>
+                        <!-- section-box close -->
+                    </div>
+                    <!-- resume-->
+                </section>
+                <!-- Experience close -->
+            </div>
+            <!-- container fluid close -->
+
+            <p></p>
+        </div>
+        <!-- container closer -->
+    </div>
+    <!-- content closer -->
